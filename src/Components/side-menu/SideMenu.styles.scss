@@ -1,0 +1,42 @@
+.sidemenu{
+    background-color: rgb(241, 241, 241);
+    height: 45vh;
+    width: 170px;
+    position: absolute;
+    top: 56px;
+    
+p{
+    margin: 0;
+}
+
+    .sidemenu-title{
+
+
+        .apps{
+            background-color: rgb(58, 151, 58);
+            padding-top: 5px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            color: rgb(241, 241, 241);
+            font-size: 22px;
+            
+        }
+
+        .my-apps{
+            padding-left: 20px;
+            margin-top: 12px;
+            
+        }
+
+        .shop{
+            
+            border-bottom: solid rgb(207, 201, 201) 1px;
+            width: 130px;
+            margin-left: 20px;
+            padding-bottom: 15px;
+            margin-top: 12px;
+           
+            
+        }
+    }
+}
