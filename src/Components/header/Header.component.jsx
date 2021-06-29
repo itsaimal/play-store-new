@@ -13,7 +13,7 @@ import {connect} from "react-redux"
          <div className="header">
 
              <div >
-<Link to="/shop">
+<Link to="/home">
  <img className="logo" src={logo}/>
 </Link>
              </div>
@@ -28,8 +28,7 @@ import {connect} from "react-redux"
            </div>
 
  <div className="options">
-<Link className="option" to="/shop">SHOP
-</Link>
+
 
 {/* <CartIcon/> */}
 

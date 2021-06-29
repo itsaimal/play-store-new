@@ -114,10 +114,10 @@ import corollai from "../../image/corollai.jpg"
 
 
 const SHOP_DATA = {
-    sedan: {
+    main: {
       id: 1,
       title: 'Welcome to Google Play',
-      routeName: 'sedan',
+      routeName: 'main',
       items: [
         {
           id: 1,
@@ -126,7 +126,7 @@ const SHOP_DATA = {
           price: 17490,
           transmission: 'Automatic',
           color: 'TikTok',
-          miles: 0,
+          miles: 4,
           imageUrl2: kia1,
           imageUrl3: kiainterior
          
@@ -226,10 +226,10 @@ const SHOP_DATA = {
          }
       ]
     },
-   luxury: {
+   charts: {
       id: 2,
-      title: 'Just updated',
-      routeName: 'luxury',
+      title: 'Top charts',
+      routeName: 'charts',
       items: [
         {
           id: 10,
@@ -321,10 +321,10 @@ const SHOP_DATA = {
         }
       ]
     },
-   hatchback: {
+    releases: {
       id: 3,
-      title: 'Popular apps',
-      routeName: 'hatchback',
+      title: 'New releases',
+      routeName: 'releases',
       items: [
         {
           id: 18,
@@ -395,10 +395,10 @@ const SHOP_DATA = {
         }
       ]
     },
-   truck: {
+    communication: {
       id: 4,
       title: 'Communication',
-      routeName: 'truck',
+      routeName: 'communication',
       items: [
         {
           id: 23,
@@ -479,10 +479,10 @@ const SHOP_DATA = {
         }
       ]
     },
-    used:{
+    edit:{
       id: 5,
       title: 'Edit videos like a pro',
-      routeName: 'used',
+      routeName: 'edit',
       items: [
         {
           id: 30,
@@ -491,7 +491,7 @@ const SHOP_DATA = {
           price: 7800,
           transmission: 'Manual',
           color: 'Cherry-Red',
-          miles: 70000,
+          miles: 4,
           imageUrl2: cu1,
           imageUrl3: cui
         },
@@ -502,7 +502,7 @@ const SHOP_DATA = {
           price: 11988,
           transmission: 'Automatic',
           color: 'Blue',
-          miles: 90000,
+          miles: 4,
           imageUrl2: bu1,
           imageUrl3: bui
         },
@@ -513,7 +513,7 @@ const SHOP_DATA = {
           price: 12567,
           transmission: 'Automatic',
           color: 'White',
-          miles: 60000,
+          miles: 4,
           imageUrl2: cor1,
           imageUrl3: cori
         },

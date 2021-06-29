@@ -1,5 +1,6 @@
 import React from "react"
 import CollectionsOverview from "../../Components/collection-overview/CollectionOverview.component"
+import "./ShopPage.scss"
 
 
 import {Route} from "react-router-dom"

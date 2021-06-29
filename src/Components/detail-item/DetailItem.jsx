@@ -18,6 +18,8 @@ import 'react-awesome-slider/dist/styles.css';
 import { useAlert } from 'react-alert'
  
 
+import StarIcon  from '@material-ui/icons/Star';
+
 function DetailItem({item,clearItem,removeItem,hidden}) {
 
     const {imageUrl,price,name,imageUrl2,color,miles,transmission,imageUrl3} = item;
@@ -48,7 +50,11 @@ function DetailItem({item,clearItem,removeItem,hidden}) {
            
             <span className="name">{color}</span>
           
-            <span className="name">{miles}_miles</span>
+            <span className="name">  {Array(miles)
+            .fill()
+            .map((_, i) => (
+              <p className="star"><StarIcon/></p>
+            ))}<p className="rate">rating</p></span>
            
 
          <button className="click" onClick={() => {

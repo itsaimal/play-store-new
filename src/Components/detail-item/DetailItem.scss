@@ -39,6 +39,27 @@
       
     }
   
+    button{
+      
+     
+     
+      border: none;
+      font-size: 15px;
+      color: #FFFFFF;
+      padding: 10px;
+      width: 95px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      background-color: #4CAF50;
+    
+    }
+    
+    button:hover{
+      background-color: #3e6e34;
+    }
   
   
     
@@ -50,7 +71,7 @@
     }
 
     .progress{
-      margin-top: 0px;
+      margin-top: 85px;
       position: absolute;
       left: 220px;
       top: 110px;
@@ -86,6 +107,9 @@
         position: relative;
         right: 140px;
         top: -20px;
+        display: flex;
+
+       
       }
   
       .price {

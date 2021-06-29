@@ -32,6 +32,9 @@ import favorite from "../../image/favourites.png"
 // import {addDetailItem} from "../../redux/detail/detail.action"
 import {withRouter,Link} from "react-router-dom"
 
+import StarIcon  from '@material-ui/icons/Star';
+
+
 
 //history withRouter in progress
 
@@ -59,7 +62,12 @@ function CollectionItem({item, addItem,addDetailItem,history}) {
                 <div className="collection-footer">
                   
                     <span className="name">{color}</span>
-                    <span className="name">{miles}_miles</span>
+                    <span className="name">
+                    {Array(miles)
+            .fill()
+            .map((_, i) => (
+              <p className="star"><StarIcon/></p>
+            ))}</span>
                     {/* <span className="name">{transmission}</span> */}
 
                     {/* <span className="price">${price}</span> */}

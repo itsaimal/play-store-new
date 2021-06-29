@@ -34,7 +34,11 @@ const CollectionPreview = ({ title, items,history, match, routeName }) => {
  
   return(
   <div className='collection-preview'>
-    <h1 className='title' onClick={() => history.push(`${match.path}/${routeName}`)}>{title.toUpperCase()}</h1>
+    <h1 className='title'>{title.toUpperCase()}</h1>
+
+    <button  onClick={() => history.push(`${match.path}/${routeName}`)}>
+      see more
+    </button>
     <div className='preview'>
       {items
         .filter((item, idx) => idx < 6)

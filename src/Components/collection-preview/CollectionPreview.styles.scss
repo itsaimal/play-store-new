@@ -64,7 +64,27 @@ overflow-y: hidden;
 
 
 
+button{
+  position: absolute;
+  right: 4%;
+  margin-top: 20px;
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 95px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #4CAF50;
 
+}
+
+button:hover{
+  background-color: #3e6e34;
+}
 
 
 .title {
@@ -72,7 +92,8 @@ overflow-y: hidden;
   margin-bottom: 25px;
   position: absolute;
   margin-left: 3px;
-  cursor: pointer;
+  margin-top: 10px;
+
 }
 
 
