@@ -28,12 +28,23 @@ p{
         .option{
             margin-left: 5px;
             padding-left: 12px;
-            padding-right: 12px;
+            // padding-right: 2px;
             width: 110px;
 
           position: relative;
           top: 12px;
           cursor: pointer;
+
+          @media only screen and (max-width: 750px) {
+            font-size: 15px;
+            padding-left: 4px;
+            margin-left: 2px;
+            width: 84px;
+           
+           
+           
+           }
+          
         }
 
         .option:hover{

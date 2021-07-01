@@ -52,6 +52,7 @@ import Spinner from "./Components/spinner/Spinner"
   const DetailPage = lazy(() => import("./pages/detail-page/DetailPage"));
 
   const SettingPage = lazy(() => import("./pages/setting-page/SettingPage"));
+  const Shopper = lazy(() => import("./pages/shopper/shopper"));
 
 const App = () => {
 
@@ -78,6 +79,8 @@ const App = () => {
         <Route path='/home' component={ShopPage} />
         {/* <Route  path='/checkout' component={CheckoutPage} /> */}
          <Route exact path='/detail' component={DetailPage} />
+
+         <Route exact path='/page' component={Shopper} />
            
 
          

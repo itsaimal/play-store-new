@@ -22,7 +22,7 @@ import StarIcon  from '@material-ui/icons/Star';
 
 function DetailItem({item,clearItem,removeItem,hidden}) {
 
-    const {imageUrl,price,name,imageUrl2,color,miles,transmission,imageUrl3} = item;
+    const {imageUrl,price,name,imageUrl2,color,miles,transmission,imageUrl3,imageUrl4} = item;
 
     const [hide,setHide] = useState(false)
 
@@ -36,7 +36,7 @@ function DetailItem({item,clearItem,removeItem,hidden}) {
         <div className="detail-item">
        
       
-       <img src={imageUrl}/>
+       <img className="detail-image" src={imageUrl}/>
 
       
 
@@ -50,11 +50,11 @@ function DetailItem({item,clearItem,removeItem,hidden}) {
            
             <span className="name">{color}</span>
           
-            <span className="name">  {Array(miles)
+            <span className="rating">  {Array(miles)
             .fill()
             .map((_, i) => (
               <p className="star"><StarIcon/></p>
-            ))}<p className="rate">rating</p></span>
+            ))}</span>
            
 
          <button className="click" onClick={() => {
@@ -70,10 +70,10 @@ function DetailItem({item,clearItem,removeItem,hidden}) {
        </div>
    
 <div className="slider">
-   <AwesomeSlider>
-    <div data-src={imageUrl2} />
+   <AwesomeSlider className="image-slider" >
+    <div   data-src={imageUrl2} />
     <div data-src={imageUrl3}/>
-    <div data-src="/path/to/image-2.jpg" />
+    <div data-src={imageUrl4} />
   </AwesomeSlider>
    </div>
 

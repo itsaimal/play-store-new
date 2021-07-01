@@ -9,6 +9,15 @@
     .title {
       font-size: 38px;
       margin: 20px  570px;
+      width: 100%;
+
+      @media only screen and (max-width: 750px) {
+    
+        font-size: 28px;
+        margin: 10px  310px;
+        width: 35%;
+         
+         }
     }
   
     .items {
@@ -17,6 +26,14 @@
        margin-right: 500px;
        margin-left: 290px;
   
+
+       @media only screen and (max-width: 750px) {
+      display: grid;
+      grid-template-columns: 1fr ;
+       
+       
+       
+       }
       //  grid-gap: 10px;
     // margin-bottom: 20px;
     // display: flex;
