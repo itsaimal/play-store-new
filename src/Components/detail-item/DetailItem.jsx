@@ -22,7 +22,7 @@ import StarIcon  from '@material-ui/icons/Star';
 
 function DetailItem({item,clearItem,removeItem,hidden}) {
 
-    const {imageUrl,price,name,imageUrl2,color,miles,transmission,imageUrl3,imageUrl4} = item;
+    const {imageUrl,name,imageUrl2,rate,imageUrl3,imageUrl4} = item;
 
     const [hide,setHide] = useState(false)
 
@@ -48,9 +48,9 @@ function DetailItem({item,clearItem,removeItem,hidden}) {
 
 
            
-            <span className="name">{color}</span>
+            <span className="name">{name}</span>
           
-            <span className="rating">  {Array(miles)
+            <span className="rating">  {Array(rate)
             .fill()
             .map((_, i) => (
               <p className="star"><StarIcon/></p>

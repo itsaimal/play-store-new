@@ -167,12 +167,12 @@ const SHOP_DATA = {
       items: [
         {
           id: 1,
-          name: 'KIA',
+          
           imageUrl: tiktok,
-          price: 17490,
-          transmission: 'Automatic',
-          color: 'TikTok',
-          miles: 4,
+         
+         
+          name: 'TikTok',
+          rate: 4,
           imageUrl2: tik1,
           imageUrl3: tik2,
           imageUrl4: tik3
@@ -180,87 +180,77 @@ const SHOP_DATA = {
         },
         {
           id: 2,
-          name: 'Buick',
+         
           imageUrl: twitter,
-          price: 23200
-          ,
-          transmission: 'Manual',
-          color: 'Twitter',
-          miles: 3,
+        
+          name: 'Twitter',
+          rate: 3,
           imageUrl2: twitter1,
           imageUrl3: twitter2,
           imageUrl4: twitter3
         },
         {
           id: 3,
-          name: 'Nissan',
+         
           imageUrl: netflix,
-          price: 19410
-          ,
-          transmission: 'Automatic',
-          color: 'Netflix',
-          miles: 5,
+      
+          name: 'Netflix',
+          rate: 5,
           imageUrl2: netflix1,
           imageUrl3: netflix2,
           imageUrl4: netflix3,
         },
         {
           id: 4,
-          name: 'Mazda',
+          
           imageUrl:facebook,
-          price: 20000
-          ,
-          transmission: 'Automatic',
-          color: 'Facebook',
-          miles: 2,
+      
+          name: 'Facebook',
+          rate: 2,
           imageUrl2: facebook1,
           imageUrl3: facebook2,
           imageUrl4: facebook3,
          },
          {
            id: 5,
-           name: 'Camry',
+           
            imageUrl: insta,
-           price: 24970,
-           transmission: 'Automatic',
-           color: 'Instagram',
-           miles: 5,
+          
+           name: 'Instagram',
+           rate: 5,
            imageUrl2: insta1,
            imageUrl3: insta2,
            imageUrl4: insta3,
          },
          {
            id: 6,
-           name: 'Corolla',
+         
            imageUrl: spotify,
-           price: 23615,
-           transmission: 'Automatic',
-           color: 'Spotify',
-           miles: 4,
+         
+           name: 'Spotify',
+           rate: 4,
            imageUrl2: spotify1,
            imageUrl3: spotify2,
            imageUrl4: spotify3,
          },
         {
            id: 7,
-           name: 'Civic',
+           
            imageUrl: duo,
-           price: 22250,
-           transmission: 'Automatic',
-           color: 'Duolingo',
-           miles: 4,
+        
+           name: 'Duolingo',
+           rate: 4,
            imageUrl2: duo1,
            imageUrl3: duo2,
            imageUrl4: duo3,
          },
          {
           id: 8,
-           name: 'Elentra',
+           
            imageUrl: what,
-           price: 24100,
-           transmission: 'Automatic',
-           color: 'Whatsapp',
-           miles: 4,
+         
+           name: 'Whatsapp',
+           rate: 4,
            
            imageUrl2: what1,
            imageUrl3: what2,
@@ -269,12 +259,11 @@ const SHOP_DATA = {
          },
          {
            id: 9,
-           name: 'Accord',
+           
          imageUrl: reddit,
-           price: 24970,
-           transmission: 'Automatic',
-           color: 'Reddit',
-           miles: 5,
+          
+           name: 'Reddit',
+           rate: 5,
            imageUrl2: reddit1,
            imageUrl3: reddit2,
            imageUrl4: reddit3,
@@ -288,98 +277,71 @@ const SHOP_DATA = {
       items: [
         {
           id: 10,
-          name: 'Maserati',
+        
           imageUrl: tiktok,
-          price: 74390,
-          transmission: 'Automatic',
-          color: 'TikTok',
-          miles: 5,
+        
+          name: 'TikTok',
+          rate: 5,
           imageUrl2: tik1,
           imageUrl3: tik2,
           imageUrl4: tik3,
         },
         {
           id: 11,
-          name: 'BMW',
+         
           imageUrl: gpay,
-          price: 54200,
-          transmission: 'Manual',
-          color: 'Google Pay',
-          miles: 4,
+         
+          name: 'Google Pay',
+          rate: 4,
           imageUrl2: gpay1,
           imageUrl3: gpay2,
           imageUrl4: gpay3,
         },
         {
           id: 12,
-          name: 'Audi',
+         
           imageUrl: fat,
-          price: 86500,
-          transmission: 'Automatic',
-          color: 'Fit 2 Fat',
-          miles: 3,
+         
+          name: 'Fit 2 Fat',
+          rate: 3,
           imageUrl2: fit1,
           imageUrl3: fit2,
           imageUrl4: fit3
         },
         {
           id: 13,
-          name: 'Bentley',
+          
           imageUrl: mine,
-          price: 177000,
-          transmission: 'Automatic',
-          color: 'MineCraft',
-          miles: 5,
+         
+          name: 'MineCraft',
+          rate: 5,
           imageUrl2: mine1,
           imageUrl3: mine2,
           imageUrl4: mine3,
         },
         {
           id: 14,
-          name: 'Rolls Royce',
+        
           imageUrl: disney,
-          price: 330000,
-          transmission: 'Automatic',
-          color: 'Disney+',
-          miles: 5,
+          
+          name: 'Disney+',
+          rate: 5,
           imageUrl2: disney1,
           imageUrl3: disney2,
           imageUrl4: disney3,
         },
         {
           id: 15,
-          name: 'Benz S-Class',
+         
           imageUrl: twitch,
-          price: 110850,
-          transmission: 'Automatic',
-          color: 'Twitch',
-          miles: 4,
+         
+          name: 'Twitch',
+          rate: 4,
           imageUrl2: twitch1,
           imageUrl3: twitch2,
           imageUrl4: twitch3,
         },
-        // {
-        //   id: 16,
-        //   name: 'XJ',
-        //   imageUrl: xj,
-        //   price: 75700,
-        //   transmission: 'Automatic',
-        //   color: 'Metalic-Gun',
-        //   miles: 0,
-        //   imageUrl2: xj1,
-        //   imageUrl3: xji
-        // },
-        // {
-        //   id: 17,
-        //   name: 'Lexus',
-        //   imageUrl: lexus,
-        //   price: 40000,
-        //   transmission: 'Automatic',
-        //   color: 'Metalic-Gun',
-        //   miles: 0,
-        //   imageUrl2: lexus1,
-        //   imageUrl3: lexusi
-        // }
+       
       ]
     },
     releases: {
@@ -389,76 +351,60 @@ const SHOP_DATA = {
       items: [
         {
           id: 18,
-          name: 'Corolla',
+         
           imageUrl: opera,
-          price: 20715,
-          transmission: 'Automatic',
-          color: 'Opera GX',
-          miles: 5,
+         
+          name: 'Opera GX',
+          rate: 5,
           imageUrl2: opera1,
           imageUrl3: opera2,
           imageUrl4: opera3,
         },
         {
           id: 19,
-          name: 'VW',
+         
           imageUrl: hd,
-          price: 32665,
-          transmission: 'Automatic',
-          color: '  Projector',
-          miles: 2,
+         
+          name: '  Projector',
+          rate: 2,
           imageUrl2: hd1,
           imageUrl3: hd2,
           imageUrl4: hd3,
         },
         {
           id: 20,
-          name: 'A3',
+         
           imageUrl: sp,
-          price: 33300,
-          transmission: 'Automatic',
-          color: 'Spooky VPV',
-          miles: 3,
+         
+          name: 'Spooky VPV',
+          rate: 3,
           imageUrl2: sp1,
           imageUrl3: sp2,
           imageUrl4: sp3,
         },
         {
           id: 21,
-          name: 'A-Class',
+          
           imageUrl: lottery,
-          price: 33650,
-          transmission: 'Automatic',
-          color: 'Lottery',
-          miles: 3,
+        
+          name: 'Lottery',
+          rate: 3,
           imageUrl2: lottery1,
           imageUrl3: lottery2,
           imageUrl4: lottery3,
         },
         {
           id: 50,
-          name: 'Buick',
+         
           imageUrl: pop,
-          price: 23200
-          ,
-          transmission: 'Manual',
-          color: 'Pop it',
-          miles: 4,
+         
+          name: 'Pop it',
+          rate: 4,
           imageUrl2: pop1,
           imageUrl3: pop2,
           imageUrl4: pop3,
         },
-        // {
-        //   id: 22,
-        //   name: 'Civic',
-        //   imageUrl: civich,
-        //   price: 22200,
-        //   transmission: 'Automatic',
-        //   color: 'Gray',
-        //   miles: 0,
-        //   imageUrl2: civich1,
-        //   imageUrl3: civichi
-        // }
+     
       ]
     },
     communication: {
@@ -468,84 +414,38 @@ const SHOP_DATA = {
       items: [
         {
           id: 23,
-          name: 'Nissan',
+         
           imageUrl: discord,
-          price: 27500,
-          transmission: 'Automatic',
-          color: 'Discord',
-          miles: 5,
+         
+          name: 'Discord',
+          rate: 5,
           imageUrl2: discord1,
           imageUrl3: discord2,
           imageUrl4: discord3,
         },
         {
           id: 24,
-          name: 'Bentley',
+          
           imageUrl: wb,
-          price: 177000,
-          transmission: 'Automatic',
-          color: 'W Buiness',
-          miles: 4,
+         
+          name: 'W Buiness',
+          rate: 4,
           imageUrl2: wb1,
           imageUrl3: wb2,
           imageUrl4: wb3,
         },
         {
           id: 25,
-          name: 'Jeep',
+        
           imageUrl: skype,
-          price: 45600,
-          transmission: 'Automatic',
-          color: 'Skype',
-          miles: 4,
+         
+          name: 'Skype',
+          rate: 4,
           imageUrl2: skype1,
           imageUrl3: skype2,
           imageUrl4: skype3,
         },
-        // {
-        //   id: 26,
-        //   name: 'Ford',
-        //   imageUrl: fordf,
-        //   price: 52340,
-        //   transmission: 'Automatic',
-        //   color: 'Blue',
-        //   miles: 0,
-        //   imageUrl2: fordf1,
-        //   imageUrl3: fordfi
-        // },
-        // {
-        //   id: 27,
-        //   name: 'Ford Lobo',
-        //   imageUrl: fordl,
-        //   price: 28940,
-        //   transmission: 'Automatic',
-        //   color: 'White',
-        //   miles: 0,
-        //   imageUrl2: fordl1,
-        //   imageUrl3: fordli
-        // },
-        // {
-        //   id: 28,
-        //   name: 'GMC',
-        //   imageUrl: gmc,
-        //   price: 59400,
-        //   transmission: 'Automatic',
-        //   color: 'Black',
-        //   miles: 0,
-        //   imageUrl2: gmc1,
-        //   imageUrl3: gmci
-        // },
-        // {
-        //   id: 29,
-        //   name: 'X5',
-        //   imageUrl: x5,
-        //   price: 61700,
-        //   transmission: 'Automatic',
-        //   color: 'Blue',
-        //   miles: 0,
-        //   imageUrl2: x51,
-        //   imageUrl3: x5i
-        // }
+       
       ]
     },
     edit:{
@@ -555,76 +455,38 @@ const SHOP_DATA = {
       items: [
         {
           id: 30,
-          name: 'Corolla',
+          
           imageUrl: viva,
-          price: 7800,
-          transmission: 'Manual',
-          color: 'Viva',
-          miles: 4,
+          
+          name: 'Viva',
+          rate: 4,
           imageUrl2: viva1,
           imageUrl3: viva2,
           imageUrl4: viva3,
         },
         {
           id: 31,
-          name: 'Buick',
+          
           imageUrl: capcut,
-          price: 11988,
-          transmission: 'Automatic',
-          color: 'CapCut',
-          miles: 5,
+         
+          name: 'CapCut',
+         rate: 5,
           imageUrl2: capcut1,
           imageUrl3: capcut2,
           imageUrl4: capcut3,
         },
         {
           id: 32,
-          name: 'Chevrolet',
+          
           imageUrl: motion,
-          price: 12567,
-          transmission: 'Automatic',
-          color: 'Alight Motion',
-          miles: 3,
+         
+          name: 'Alight Motion',
+          rate: 3,
           imageUrl2: motion1,
           imageUrl3: motion2,
           imageUrl4: motion3
         },
-        // {
-        //   id: 33,
-        //   name: 'Buick',
-        //   imageUrl: buick,
-        //   price: 23200
-        //   ,
-        //   transmission: 'Manual',
-        //   color: 'Silver',
-        //   miles: 0,
-        //   imageUrl2: buick1,
-        //   imageUrl3: buickinterior
-        // },
-        // {
-        //   id: 34,
-        //   name: 'Buick',
-        //   imageUrl: buick,
-        //   price: 23200
-        //   ,
-        //   transmission: 'Manual',
-        //   color: 'Silver',
-        //   miles: 0,
-        //   imageUrl2: buick1,
-        //   imageUrl3: buickinterior
-        // },
-        // {
-        //   id: 35,
-        //   name: 'Buick',
-        //   imageUrl: buick,
-        //   price: 23200
-        //   ,
-        //   transmission: 'Manual',
-        //   color: 'Silver',
-        //   miles: 0,
-        //   imageUrl2: buick1,
-        //   imageUrl3: buickinterior
-        // },
+      
        
       ]
     }

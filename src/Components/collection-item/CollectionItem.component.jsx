@@ -5,7 +5,7 @@ import CustomButton from '../custom button/CustomButton.component'
 import "./CollectionItem.styles.scss"
 import {connect} from "react-redux"
 import {addItem} from "../../redux/cart/cart.action"
-import favorite from "../../image/favourites.png"
+
 
 import {withRouter,Link} from "react-router-dom"
 
@@ -15,8 +15,8 @@ import StarIcon  from '@material-ui/icons/Star';
 
 
 
-function CollectionItem({item, addItem,addDetailItem,history}) {
-    const {imageUrl,miles,color} = item;
+function CollectionItem({item, addItem}) {
+    const {imageUrl,rate,name} = item;
     return (
         <Link to="/detail">
             
@@ -34,9 +34,9 @@ function CollectionItem({item, addItem,addDetailItem,history}) {
 
                 <div className="collection-footer">
                   
-                    <span className="name">{color}</span>
+                    <span className="name">{name}</span>
                     <span className="name">
-                    {Array(miles)
+                    {Array(rate)
             .fill()
             .map((_, i) => (
               <p className="star"><StarIcon/></p>
