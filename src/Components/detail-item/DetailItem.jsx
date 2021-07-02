@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import "./DetailItem.scss"
-// import {ClearItemFromDetail, removeItem} from "../../redux/detail/detail.action"
+
 import {connect} from "react-redux"
 
 import ImageGallery from 'react-image-gallery';
